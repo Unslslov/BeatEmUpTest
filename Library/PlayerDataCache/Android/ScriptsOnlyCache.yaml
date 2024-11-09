@@ -29,6 +29,8 @@ ScriptsOnlyBuild:
     - SimpleFighterHealth
     - TutorialButtonAttack
     - TutorialJoystick
+    Unity.AI.Navigation.Editor.dll:
+    - Unity.AI.Navigation.Editor.NavMeshAssetManager
     Unity.AI.Navigation.dll:
     - Unity.AI.Navigation.NavMeshSurface
     Unity.PlasticSCM.Editor.dll:
@@ -46,10 +48,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -196,7 +196,7 @@ ScriptsOnlyBuild:
     - Zenject.Internal.DefaultSceneContractConfig/ContractInfo
   methodsToPreserve: []
   sceneClasses:
-    Assets/Extension/Assets/FightingMotionsVolume3/Scenes/KickMotions.unity:
+    Assets/MainScene/KickMotions.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -330,17 +330,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 19662}
     - Class: 114
-      Script: {instanceID: 19866}
+      Script: {instanceID: 19836}
     - Class: 114
-      Script: {instanceID: 19964}
+      Script: {instanceID: 19868}
     - Class: 114
-      Script: {instanceID: 20014}
+      Script: {instanceID: 19966}
     - Class: 114
-      Script: {instanceID: 20132}
+      Script: {instanceID: 20016}
     - Class: 114
-      Script: {instanceID: 20294}
+      Script: {instanceID: 20134}
     - Class: 114
-      Script: {instanceID: 20312}
+      Script: {instanceID: 20296}
     - Class: 114
       Script: {instanceID: 20332}
     - Class: 114
@@ -376,89 +376,89 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21100}
     - Class: 114
-      Script: {instanceID: 21296}
+      Script: {instanceID: 21250}
     - Class: 114
-      Script: {instanceID: 21356}
+      Script: {instanceID: 21298}
     - Class: 114
-      Script: {instanceID: 21374}
+      Script: {instanceID: 21358}
     - Class: 114
-      Script: {instanceID: 21402}
+      Script: {instanceID: 21376}
     - Class: 114
-      Script: {instanceID: 21504}
+      Script: {instanceID: 21404}
     - Class: 114
-      Script: {instanceID: 21570}
+      Script: {instanceID: 21506}
     - Class: 114
-      Script: {instanceID: 21676}
+      Script: {instanceID: 21572}
     - Class: 114
-      Script: {instanceID: 21722}
+      Script: {instanceID: 21678}
     - Class: 114
-      Script: {instanceID: 21730}
+      Script: {instanceID: 21724}
     - Class: 114
-      Script: {instanceID: 21766}
+      Script: {instanceID: 21732}
     - Class: 114
-      Script: {instanceID: 21856}
+      Script: {instanceID: 21768}
     - Class: 114
-      Script: {instanceID: 21976}
+      Script: {instanceID: 21858}
     - Class: 114
-      Script: {instanceID: 22010}
+      Script: {instanceID: 21978}
     - Class: 114
-      Script: {instanceID: 22058}
+      Script: {instanceID: 22012}
     - Class: 114
-      Script: {instanceID: 22106}
+      Script: {instanceID: 22060}
     - Class: 114
-      Script: {instanceID: 22120}
+      Script: {instanceID: 22108}
     - Class: 114
-      Script: {instanceID: 22142}
+      Script: {instanceID: 22122}
     - Class: 114
-      Script: {instanceID: 22166}
+      Script: {instanceID: 22144}
     - Class: 114
-      Script: {instanceID: 22482}
+      Script: {instanceID: 22168}
     - Class: 114
-      Script: {instanceID: 22638}
+      Script: {instanceID: 22484}
     - Class: 114
-      Script: {instanceID: 22698}
+      Script: {instanceID: 22640}
     - Class: 114
-      Script: {instanceID: 22780}
+      Script: {instanceID: 22700}
     - Class: 114
-      Script: {instanceID: 22882}
+      Script: {instanceID: 22754}
     - Class: 114
-      Script: {instanceID: 22900}
+      Script: {instanceID: 22784}
     - Class: 114
-      Script: {instanceID: 23214}
+      Script: {instanceID: 22886}
     - Class: 114
-      Script: {instanceID: 23424}
+      Script: {instanceID: 22904}
     - Class: 114
-      Script: {instanceID: 23454}
+      Script: {instanceID: 23218}
     - Class: 114
-      Script: {instanceID: 23534}
+      Script: {instanceID: 23428}
     - Class: 114
-      Script: {instanceID: 23566}
+      Script: {instanceID: 23458}
     - Class: 114
-      Script: {instanceID: 23606}
+      Script: {instanceID: 23538}
     - Class: 114
-      Script: {instanceID: 23712}
+      Script: {instanceID: 23570}
     - Class: 114
-      Script: {instanceID: 23762}
+      Script: {instanceID: 23610}
     - Class: 114
-      Script: {instanceID: 23772}
+      Script: {instanceID: 23716}
     - Class: 114
-      Script: {instanceID: 23844}
+      Script: {instanceID: 23766}
     - Class: 114
-      Script: {instanceID: 23878}
+      Script: {instanceID: 23776}
     - Class: 114
-      Script: {instanceID: 24112}
+      Script: {instanceID: 23848}
     - Class: 114
-      Script: {instanceID: 24168}
+      Script: {instanceID: 23882}
     - Class: 114
-      Script: {instanceID: 29730}
+      Script: {instanceID: 24116}
     - Class: 114
-      Script: {instanceID: 63870}
+      Script: {instanceID: 24172}
     - Class: 114
-      Script: {instanceID: 63904}
+      Script: {instanceID: 24212}
     - Class: 114
-      Script: {instanceID: 63912}
+      Script: {instanceID: 24216}
     - Class: 114
-      Script: {instanceID: 123428}
+      Script: {instanceID: 46734}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1192,6 +1192,12 @@ ScriptsOnlyBuild:
     className: JoystickPlayerExample
   - hash:
       serializedVersion: 2
+      Hash: 63700dcb0946b90a3b40972829883fe9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ActivateButtonAttackTutorialTrigger
+  - hash:
+      serializedVersion: 2
       Hash: 6298a10412e94e11ad85ac6148c9dda1
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -1244,12 +1250,6 @@ ScriptsOnlyBuild:
     assemblyName: Zenject-IntegrationTests
     namespaceName: Zenject.Tests.Bindings.FromPrefab
     className: Gorp
-  - hash:
-      serializedVersion: 2
-      Hash: e363549c5833feca02f4029e50f46835
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: TutorialJoystick
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1514,6 +1514,12 @@ ScriptsOnlyBuild:
     assemblyName: Zenject
     namespaceName: Zenject.SpaceFighter
     className: PlayerGui
+  - hash:
+      serializedVersion: 2
+      Hash: fd1c48e69c4282623863f1454775b6e0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DisactivateJoystickTutorial
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1798,6 +1804,12 @@ ScriptsOnlyBuild:
     className: PlayModeRunnerCallback
   - hash:
       serializedVersion: 2
+      Hash: 63700dcb0946b90a3b40972829883fe9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DisactivateButtonAttackTutorial
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Zenject
     namespaceName: Zenject.SpaceFighter
@@ -2080,29 +2092,17 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: fd1c48e69c4282623863f1454775b6e0
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: DisactivateJoystickTutorial
-  - hash:
-      serializedVersion: 2
       Hash: 4a09f42023e1e3b86ec6f94581129c27
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: TutorialButtonAttack
   - hash:
       serializedVersion: 2
-      Hash: 63700dcb0946b90a3b40972829883fe9
+      Hash: e363549c5833feca02f4029e50f46835
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: DisactivateButtonAttackTutorial
-  - hash:
-      serializedVersion: 2
-      Hash: 63700dcb0946b90a3b40972829883fe9
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ActivateButtonAttackTutorialTrigger
+    className: TutorialJoystick
   platform: 13
   scenePathNames:
-  - Assets/Extension/Assets/FightingMotionsVolume3/Scenes/KickMotions.unity
+  - Assets/MainScene/KickMotions.unity
   playerPath: F:/Notf2/TestTask.apk

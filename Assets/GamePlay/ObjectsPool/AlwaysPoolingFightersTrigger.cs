@@ -19,7 +19,7 @@ public class AlwaysPoolingFightersTrigger : MonoBehaviour
     {
         if(_isCreated)
         {
-            if(_time >= 20)
+            if(_time >= 7.5f)
             {
                 _time = 0;
 
